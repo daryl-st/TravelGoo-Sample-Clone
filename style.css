@@ -1,0 +1,387 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav bar */
+.container-fluid {
+    padding: 1% 8%;
+}
+
+.navbar-nav {
+    width: 40%;
+}
+
+/* Section one */
+#section-one {
+    width: 100%;
+    height: 700px;
+    background: url(images/hero.png) center/cover no-repeat;
+    mask: radial-gradient(360% 140% at top, #fff 60%,transparent 70%); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.nav {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.nav div, .nav a {
+    color: white;
+}
+
+.main-panel {
+    padding: 12% 25%;
+    text-align: center;
+}
+
+.header-one {
+    font-weight: 800;
+    font-style: normal;
+    font-size: 4rem; 
+}
+
+.para-one {
+    padding: 5% 20% 2%;
+}
+
+.user-img {
+    width: 50px;
+    padding-left: 15px;
+}
+
+/* Section-two */
+#section-two {
+    padding: 5% 3% 7%;
+}
+
+.card-img-top-logo {
+    width: 40px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+.card {
+    padding: 2% 2%;
+    width: 380px;
+    border-style: none;
+    background-color: rgb(250, 250, 250);
+}
+
+.card-title {
+    font-weight: bolder;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.container-two {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.header-two {
+    text-align: center;
+    font-weight: 700;
+    padding: 1%;
+}
+
+.shadow:hover {
+    box-shadow: 5px 5px 5px #777777;
+    background-color: white;
+}
+
+/* Section-three */
+#section-three {
+    background-image: url(images/world\ map\ 1.png);
+    background-color: #F2F6F6;
+    padding: 5% 8%;
+}
+
+.container-three {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-three .card {
+    text-align: center;
+    width: 160px;
+    height: 180px;
+    padding: 1% 1%;
+}
+
+.container-three .card-img-top-logo {
+    margin: auto;
+}
+
+.header-para {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    padding: 0 0 7%;
+}
+
+.para-two {
+    padding-top: 3%;
+}
+
+/* Section-four */
+.popular-panel {
+    display: flex;
+    padding: 2% 0 -2%;
+}
+
+.world-map-1 {
+    width: 75%;
+}
+
+.card-img {
+    width: 180px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.horizontal-card {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    /* border: 1px outset; */
+    border-radius: 12px;
+    margin: 4%;
+    padding-right: 20%;
+    box-shadow: 3px 3px 3px #d6d6d6;
+}
+
+.container-four .header-two {
+    padding: 3% 0;
+}
+
+/* Section-Five */
+#section-five {
+    background-color: #ECF1F0;
+}
+
+.container-five .header-two {
+    padding-top: 3%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-container .card {
+    padding: 0;
+    width: 300px;
+}
+
+.container-five .card-body {
+    padding: 5%;
+}
+
+.card-container .card-img-top {
+    height: 280px;
+}
+
+.card-img-top {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1% 10% 3%;
+}
+
+.btn {
+    width: 170px;
+}
+
+.discover {
+    text-align: center;
+    padding: 4% 0;
+}
+
+.discover .btn {
+    width: 200px;
+}
+
+/*Section-six*/
+#section-six {
+    padding: 5% 0;
+}
+
+.container-six {
+    width: 65%;
+    margin: auto;
+}
+
+.booking-card {
+    margin-top: 3%;
+    border: transparent;
+    box-shadow: 5px -5px 25px #aeaeae;
+    border-radius: 15px;
+    max-height: 360px;
+    padding: 1%;
+}
+
+.container-six .para-easy {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.booking-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking-img {
+    width: 80px;
+}
+
+.container {
+    padding: 4% 0;
+}
+
+.trip {
+    height: 170px;
+}
+
+.title-greece {
+    margin-top: 5%;
+}
+
+.logo-img {
+    width: 35px;
+    background-color: #EDEDED;
+    border: transparent;
+    border-radius: 50px;
+    padding: 3%;
+    margin: 5% 1%;
+}
+
+.booking {
+    background-color: transparent;
+}
+
+/* Section-Seven */
+#section-seven {
+    background-color: #ECF1F0;
+    padding: 3%;
+}
+
+.container-seven {
+    width: 75%;
+    margin: auto;
+}
+
+.carousal {
+    height: 550px;
+    border-radius: 20px;
+    padding-bottom: 100px;
+}
+
+.header-three {
+    text-align: center;
+    font-weight: 700;
+    padding: 1% 1% 3%;
+}
+
+.caption {
+    background-color: white;
+    color: black;
+}
+
+.caption p {
+    padding: 4% 4% 1%;
+}
+
+/*Footer*/
+#footer {
+    margin: 5% 2% 1%;
+}
+
+.subscribe {
+    width: 65%;
+    border: transparent;
+    padding: 5% 5% 2%;
+    margin: auto;
+    text-align: center;
+    background-color: lightcyan;
+    border-top-left-radius: 140px;
+}
+
+.subs {
+    padding: 5%;
+}
+
+.email {
+    font-size: smaller;
+    font-family: monospace;
+    padding: 14px;
+    border: transparent;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.quick-links {
+    display: flex;
+    padding: 2% 7%;
+    justify-content: center;
+}
+
+li {
+list-style-type: none;
+padding-bottom: 12px;
+}
+
+a {
+text-decoration: none;
+color: rgb(91, 91, 91);
+}
+
+.contact h4 {
+padding-bottom: 20px;
+}
+
+.contact {
+padding: 2% 5%;
+}
+
+.socials {
+padding: 5%;
+}
+
+.social {
+padding: 25px 5px 0 0;
+margin-left: 5%;
+}
+
+.down-btn {
+padding: 6% 0;
+}
+
+.copyright {
+text-align: center;
+}
